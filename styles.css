@@ -26,7 +26,7 @@
   }
 
   h2 {
-    font-family: 'Inter',Helvetica,Arial,Verdana, Tahoma, sans-serif;
+    font-family: 'Inter', Helvetica,Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -42,7 +42,7 @@
     color: #36b37e;
   }
 
-  view-m {
+  .viewmobile {
     color: #28352f;
     font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
