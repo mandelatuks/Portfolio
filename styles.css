@@ -1,0 +1,68 @@
+
+@media only screen and (min-width: 360px) {
+  body {
+    background-image: url("images/header-illsutration-mobile@2x.png");
+    background-color: hsl(120, 33%, 96%);
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #172b4d;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 58px 0;
+  }
+
+  .mobile-container div p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    font-family: 'Inter',Helvetica,Arial,Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  span {
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #36b37e;
+  }
+
+  view-m {
+    color: #28352f;
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  a {
+    justify-content: center;
+  }
+}
