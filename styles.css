@@ -5,12 +5,9 @@
     margin: 0;
     padding: 0;
     background-image: url("images/header-illsutration-mobile.svg");
-    background-color: rgb(255,255,255);
-    background-position: 0px 90px;
+    background-color: rgb(255, 255, 255);
+    background-position: 0 90px;
     background-repeat: repeat-x;
-    
-    
-   
   }
 
   p {
@@ -26,7 +23,7 @@
     margin: 58px 0;
   }
 
-  .mobile-container nav div a {
+  nav div a .mobile-container   {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +75,8 @@
   a {
     justify-content: center;
   }
-  .middle{
+
+  .middle {
     display: flex;
     justify-content: center;
     align-items: center;
