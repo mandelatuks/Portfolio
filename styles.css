@@ -23,7 +23,7 @@
     margin: 58px 0;
   }
 
-  nav div a .mobile-container   {
+  nav div a .mobile-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
