@@ -1,0 +1,84 @@
+
+@media only screen and (min-width: 360px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/header-illsutration-mobile.svg");
+    background-color: rgb(255, 255, 255);
+    background-position: 0 90px;
+    background-repeat: repeat-x;
+  }
+
+  p {
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #172b4d;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 58px 0;
+  }
+
+  nav div a .mobile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+
+  h1 {
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  span {
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #36b37e;
+  }
+
+  .viewmobile {
+    color: #28352f;
+    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info {
+    text-align: center;
+    padding-top: 15em;
+    margin-top: -160px;
+  }
+
+  .socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+
+  a {
+    justify-content: center;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
