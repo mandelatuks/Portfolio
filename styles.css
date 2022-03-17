@@ -1,9 +1,16 @@
 
 @media only screen and (min-width: 360px) {
   body {
-    background-image: url("images/header-illsutration-mobile@2x.png");
-    background-color: hsl(120, 33%, 96%);
-    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/header-illsutration-mobile.svg");
+    background-color: rgb(255,255,255);
+    background-position: 0px 90px;
+    background-repeat: repeat-x;
+    
+    
+   
   }
 
   p {
@@ -19,13 +26,15 @@
     margin: 58px 0;
   }
 
-  .mobile-container div p {
+  .mobile-container nav div a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 50px;
+    padding-left: 30px;
   }
 
-  h2 {
+  h1 {
     font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -48,10 +57,14 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .info {
     text-align: center;
+    padding-top: 15em;
+    margin-top: -160px;
   }
 
   .socialmedia {
@@ -59,9 +72,15 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    list-style: none;
   }
 
   a {
     justify-content: center;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
