@@ -120,9 +120,6 @@
     border-radius: 24px;
   }
 
-  /* .articlewraper {
-    display: grid;
-  } */
 .imgholder {
   background-color:#EBF0EE;;
   width: 100%;
@@ -140,7 +137,8 @@
   .articlewraper {
     display: grid;
     row-gap: 24px;
-    padding: 10px 0;
+    padding: 10px 10px;
+    
   }
   
   .description {
@@ -252,7 +250,109 @@
   }
 
   .about_section {
-    
+     background-image: url('Images/illustration1-about-me-mobile.svg'), url('Images/illustration2-about-me-mobile.svg');
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;  
+
   }
+
+  .about_section  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    width: 351px;
+    height: 333px;
+    left: 12px;
+    top: calc(50% - 333px/2 - 582px);
+     margin-left: 10px;
+   padding-top: 60px;
+
+  }
+ 
+
+   h3 .more-section {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172B4D;
+
+  }
+  
+  .content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px; 
+    text-align: center;
+    color: #42526E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #172B4D;
+margin-top: 0px;
+margin-bottom: 0px;
+  }
+  .resume-btn  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    margin: 96px;
+    left: 96px;
+    background: #36B37F;
+    border-radius: 4px;
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-bottom: 0px; 
+  }
+
+   .about_works {
+    padding-top: 150px;
+    display: grid;
+    row-gap: 24px;
+    padding: 10px 10px;
+  } 
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 }
