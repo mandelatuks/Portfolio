@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 360px) {
+
   body {
     box-sizing: border-box;
     margin: 0;
@@ -56,6 +56,10 @@
     line-height: 28px;
     display: flex;
     justify-content: space-between;
+    margin-left: 20px ;
+    margin-right: 10px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
   }
 
   .info {
@@ -233,18 +237,21 @@
     margin-top: 13px;
     cursor: pointer;
   }
+  .btn-card:hover {
+    opacity: 0.6;
+    background-color: #172B4D;;
+  }
 
   .about_section {
     background-image: url('Images/illustration1-about-me-mobile.svg'), url('Images/illustration2-about-me-mobile.svg');
     background-position: top right, bottom left;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     padding: 0;
-    width: 351px;
-    height: 333px;
+    /* width: 351px;
+    height: 333px; */
     left: 12px;
     top: calc(50% - 333px / 2 - 582px);
     margin-left: 10px;
@@ -289,31 +296,30 @@
   }
 
   .resume-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    margin: 96px;
-    left: 96px;
-    background: #36b37f;
-    border-radius: 4px;
-    list-style: none;
-    font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
 
-    /* display: flex;
-    align-items: center;
-    text-align: center; */
-    letter-spacing: 0.03em;
-    color: #fff;
+    display: flex;
+     flex-direction: row; 
+     align-items: center;
+    border: 0 solid transparent;
+    background: #36b37f;
     text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 0.03em;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 13px;
+    cursor: pointer;
     margin-top: 20px;
     margin-left: 96px;
     margin-right: 96px;
     margin-bottom: 0;
+  }
+
+  .resume-btn:hover {
+    opacity: 0.6;
+    background-color: #172B4D;;
   }
 
   .about-cards {
@@ -386,4 +392,4 @@
     color: #172b4d;
     font-weight: bold;
   }
-}
+
