@@ -40,19 +40,21 @@ cd portfolio
 - Twitter: [@MandelaTm1](https://twitter.com/MandelaTm1)
 - LinkedIn: [@Mandela Tumukunde](https://www.linkedin.com/in/mandela-tumukunde-794755194/)
 
-👤 **Author2**
-
-- GitHub: [@lembani](https://github.com/lembani)
-- Twitter: [@lembani_](https://twitter.com/lembani_)
-- LinkedIn: [lembani-sakala-b58615109](https://linkedin.com/in/lembani-sakala-b58615109)
-
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+### Contributors
+
+Special thanks to the following contributors:
+
+👤 **Lembani Sakala**
+
+- GitHub: [@lembani](https://github.com/lembani)
+- Twitter: [@lembani_](https://twitter.com/lembani_)
+
 
 ## Show your support
 
