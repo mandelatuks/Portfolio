@@ -395,3 +395,18 @@ h3 {
   color: #172b4d;
   font-weight: bold;
 }
+
+.primary-text {
+  font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  width: 327px;
+  height: 363px;
+  left: 0;
+  top: 0;
+  margin: 60px 0 0 20px;
+}
