@@ -796,6 +796,23 @@ h3 {
     width: 100%;
     margin-top: 20px;
   }
+
+  .name-intro-desk span {
+    color: #344563;
+    font-size: 38px;
+    display: inline-block;
+    animation: introOne 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  }
+  
+  @keyframes introOne {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
 }
 
 /* Animation and transitions */
@@ -850,4 +867,55 @@ h3 {
 }
 .card-one:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.about-card:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.name-intro-desk {
+  display: none;
+}
+
+.name-intro span {
+  color: #344563;
+  font-size: 38px;
+  display: inline-block;
+  animation: introOne 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes introOne {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.name-intro-desk {
+  display: none;
+}
+
+.intro-desc {
+  animation: 2s anim-intro-up ease-out infinite;
+}
+
+@keyframes anim-intro-up {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
