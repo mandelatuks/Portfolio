@@ -412,6 +412,7 @@ h3 {
   text-align: center;
   color: #172b4d;
   margin: 60px 0 0 20px;
+  animation: moveToLeft 2s ease-in;
 }
 
 .form-field {
@@ -788,6 +789,7 @@ h3 {
     text-align: center;
     color: #172b4d;
     margin: 60px 0 0 20px;
+    animation: moveToLeft 2s ease-in;
   }
 
   hr.new2 {
@@ -826,5 +828,15 @@ h3 {
   40%,
   100% {
     transform: rotateZ(0);
+  }
+}
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  25% {
+    transform: translateX(0%);
   }
 }
