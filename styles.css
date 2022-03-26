@@ -318,6 +318,7 @@ h3 {
   margin-left: 96px;
   margin-right: 96px;
   margin-bottom: 0;
+  animation: wiggle 2s linear infinite;
 }
 
 .resume-btn:hover {
@@ -356,6 +357,14 @@ h3 {
   margin: auto;
   padding-bottom: 30px;
   padding-top: 40px;
+}
+
+.icon_language_icon1 {
+  padding-top: 0;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 .language {
@@ -670,6 +679,7 @@ h3 {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+    animation: wiggle 2s linear infinite;
   }
 
   .main-card ul {
@@ -783,5 +793,38 @@ h3 {
   hr.new2 {
     width: 100%;
     margin-top: 20px;
+  }
+}
+
+/* Animation and transitions */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
   }
 }
