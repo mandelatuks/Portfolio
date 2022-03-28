@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: url("images/header-illsutration-mobile.svg");
+  background-image: url("/images/header-illsutration-mobile.svg");
   background-color: rgb(255, 255, 255);
   background-position: 0 90px;
   background-repeat: no-repeat;
@@ -258,7 +258,7 @@ hr.new1 {
 }
 
 .about_section {
-  background-image: url('Images/illustration1-about-me-mobile.svg'), url('Images/illustration2-about-me-mobile.svg');
+  background-image: url('/images/illustration1-about-me-mobile.svg'), url('/images/illustration2-about-me-mobile.svg');
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   display: flex;
@@ -508,7 +508,7 @@ h3 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url('images/desk/Header-llustration-desktop.svg');
+    background-image: url('/images/desk/Header-llustration-desktop.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -652,7 +652,7 @@ h3 {
 
   .about_section {
     margin-top: 192px;
-    background-image: url('images/desk/illustration-aboutme-1-desktop.svg'), url('images/desk/illustration-about-me-2-desktop.svg');
+    background-image: url('/images/desk/illustration-aboutme-1-desktop.svg'), url('/images/desk/illustration-about-me-2-desktop.svg');
     background-position: right -70px, left 110px;
   }
 
@@ -752,7 +752,7 @@ h3 {
     padding: 100px 70px 170px 60px;
     display: grid;
     grid-template-columns: 45% 55%;
-    background-image: url('images/desk/illustration-1-contact-form-desktop.svg'), url('images/desk/illustration-2-contact-form-desktop.svg'), url('images/desk/contactform-illustratoin-3-desktop.svg');
+    background-image: url('/images/desk/illustration-1-contact-form-desktop.svg'), url('/images/desk/illustration-2-contact-form-desktop.svg'), url('images/desk/contactform-illustratoin-3-desktop.svg');
     background-repeat: no-repeat;
     background-position: bottom left, 274.15px calc(100% - 84.15px), bottom right;
     margin: 0;
