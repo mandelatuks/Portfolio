@@ -253,7 +253,7 @@ hr.new1 {
 }
 
 .btn-card:hover {
-  opacity: 0.6;
+  color: #fff;
   background-color: #172b4d;
 }
 
