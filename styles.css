@@ -136,14 +136,6 @@ span {
   animation-delay: calc(0.1s * var(--i));
 }
 
-/* .mobile-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 20px;
-  margin-left: 20px;
-} */
-
 .viewmobile {
   color: #28352f;
   font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
@@ -185,8 +177,6 @@ span {
 .arrow-btn {
   width: 40px;
   height: 40px;
-
-  /* left: calc(50% - 40px/2 + 0.5px); */
   bottom: 4px;
   background: #fff;
   border: 1px solid #dfe1e6;
