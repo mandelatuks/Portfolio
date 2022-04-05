@@ -9,7 +9,90 @@ body {
   background-repeat: no-repeat;
 }
 
-.desktopnav {
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-list {
+  display: none;
+}
+
+.open {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  flex-direction: column;
+  color: white;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+#head-nav {
+  position: fixed;
+  display: inline;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 999;
+}
+
+.nav-link {
+  margin-left: 28px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  color: #3a4a42;
+  transition: color 3s;
+  text-decoration: none;
+}
+
+i.far.times.fa-times {
+  font-size: 25px;
+  font-weight: 100;
+  color: #67798e;
+  padding-top: 14px;
+  padding-right: 30px;
+  margin: 0;
+}
+
+.close-menu {
+  text-align: right;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+}
+
+#logo {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a {
+  justify-content: center;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #28352f;
+}
+
+#bar i {
+  font-size: 20px;
+  color: #67798e;
+}
+
+.deskview {
   display: none;
 }
 
@@ -83,10 +166,6 @@ span {
   list-style: none;
 }
 
-a {
-  justify-content: center;
-}
-
 .middle {
   display: flex;
   flex-direction: row;
@@ -98,8 +177,6 @@ a {
 .arrow-btn {
   width: 40px;
   height: 40px;
-
-  /* left: calc(50% - 40px/2 + 0.5px); */
   bottom: 4px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -520,19 +597,22 @@ h3 {
     display: none;
   }
 
-  .desktopnav {
+  .deskview {
     display: flex;
-    justify-content: center;
     margin-left: 30px;
     padding-right: 35px;
+    padding-left: 200px;
   }
 
-  .desktopnav ul {
+  .deskview ul {
     display: flex;
     text-decoration: none;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 280px;
   }
 
-  .desktopnav li {
+  .deskview li {
     margin-right: 30px;
     margin-left: 30px;
     list-style: none;
@@ -541,12 +621,15 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
+    text-align: center;
   }
 
-  .desktopnav a {
+  .deskview a {
     color: #344563;
     text-decoration: none;
+    justify-content: space-around;
   }
+  .desktopnav { display: none; }
 
   .info {
     width: 100%;
