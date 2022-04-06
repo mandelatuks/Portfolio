@@ -18,7 +18,7 @@ times.addEventListener('click', () => {
 
 navLink.forEach((link) => {
   link.addEventListener('click', () => {
-    if (window.innerWidth < 600) {
+    if (window.innerWidth > 768) {
       closeNavItems();
     }
   });
