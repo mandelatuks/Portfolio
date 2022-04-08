@@ -915,6 +915,7 @@ h3 {
     line-height: 20px;
     text-align: center;
     color: #fff;
+    text-decoration: none;
   }
 
   .hidden {
@@ -941,6 +942,7 @@ h3 {
     background: #36b37e;
     border-radius: 8px;
     margin-left: 0;
+    text-decoration: none;
   }
 
   .technology-list {
