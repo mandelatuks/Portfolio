@@ -130,19 +130,19 @@ const enablePopUps = () => {
         const popUpData = `
           <div class="modal">
             <a class="close-icon1">
-            <img src="images/Disabled.svg" alt="disabled button">
+            <img src="Images/Disabled.svg" alt="disabled button">
             </a>
-            <img class="modal-image" src="images/SnapshootPortfolio.svg" alt="project image">
+            <img class="modal-image" src="Images/SnapshootPortfolio.svg" alt="project image">
               <div class="title-button">
                     <h2 class="modal-title2">
                     Keeping track of hundreds of
                       components 
                     </h2>
                       <a class="see-demo3" href="${projectData.liveVersion}">See live
-                        <img src="images/see-live.png" alt=" icon for live">
+                        <img src="Images/see-live.png" alt=" icon for live">
                       </a>
                       <a class="see-demo4" href="${projectData.sourceLink}">See Source
-                          <img src="images/see-source.png" alt="icon for github">
+                          <img src="Images/see-source.png" alt="icon for github">
                       </a>
               </div>
               <div class="technologies">
@@ -173,10 +173,10 @@ const enablePopUps = () => {
             
             <div class="closeimage">
             <a  class="close-icon1">
-            <img src="images/Disabled.svg" alt="disabled button">
+            <img src="Images/Disabled.svg" alt="disabled button">
             </a>
         </div>
-            <img class = "mainimage" src="images/Snapshootmobile.svg" alt="project image">
+            <img class = "mainimage" src="Images/Snapshootmobile.svg" alt="project image">
               
                     <h2 class="modal-title">
                     Keeping track of hundreds of <br>
@@ -194,10 +194,10 @@ const enablePopUps = () => {
               </p>
               <div class="action-button">
               <a class="see-demo1">See live
-                <img class="seelive" src="images/see-live.png" alt=" icon for live">
+                <img class="seelive" src="Images/see-live.png" alt=" icon for live">
             </a>
             <a class="see-demo2">See Source
-                <img src="images/see-source.png" alt="icon for github">
+                <img src="Images/see-source.png" alt="icon for github">
             </a>
             </div>
           </div>
