@@ -49,27 +49,28 @@ body {
 
 .closeimage {
   display: flex;
-  align-self: flex-end;
-  justify-content: flex-end;
+  flex-direction: row;
   z-index: 999;
   position: absolute;
-  right: 38px;
-  height: 20px;
   cursor: pointer;
+  margin-left: 80%;
+  margin-top: 17px;
+}
+
+.close-icon1 {
+  justify-self: end;
 }
 
 .modal-title {
   width: 259px;
   height: 135px;
-  left: 0;
-  top: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 37px;
+  text-align: left;
+  font-size: 30px;
   line-height: 40px;
   color: #172b4d;
-  margin: 0 12px;
 }
 
 .technology-list {
@@ -79,7 +80,7 @@ body {
   padding: 0;
   list-style: none;
   gap: 5px;
-  margin-left: 14px;
+  margin-left: 2px;
   margin-bottom: 6px;
 }
 
@@ -154,9 +155,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 12px 16px;
+  padding: 12px 11px;
   width: 100px;
-  height: 20px;
+  height: 30px;
   left: 0;
   top: 4px;
   background-color: #36b37f;
@@ -180,30 +181,29 @@ body {
 .see-demo2 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 15px 16px;
-  width: 125px;
-  height: 15px;
-  left: 0;
-  top: 4px;
+  align-items: center;
+  padding: 8px 10px;
+  width: 128px;
   background-color: #36b37f;
   cursor: pointer;
-  gap: 10px;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 17px;
   line-height: 24px;
   margin-left: 20px;
   border-radius: 4px;
 }
 
+.see-demo2 img {
+  margin-left: 10px;
+}
+
 .action-button {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding-right: 5px;
+  justify-content: space-evenly;
 }
 
 /* end of css modal */
@@ -795,21 +795,20 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 140vh;
+    height: 100vh;
   }
 
   /* modal for destop */
   .modal-container {
-    overflow-x: scroll;
     position: fixed;
     top: 0;
     bottom: 0;
-    overflow: auto !important;
     background-color: #c1c7d0;
     z-index: 9999;
-    width: 90%;
-    height: 80%;
-    padding: 100px 90px 60px;
+    width: 100%;
+    height: auto;
+    padding: 60px 10px 20px 10px;
+    overflow: scroll;
   }
 
   .modal {
@@ -821,90 +820,84 @@ h3 {
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
-    width: 70%;
-    height: auto;
-    margin-left: 200px;
+    width: 900px;
+    margin: 0 auto;
   }
 
   .close-icon1 {
-    z-index: 9999;
+    /* z-index: 9999; */
     cursor: pointer;
-    align-self: flex-end;
-    margin-right: 90px;
+    margin: 1em;
     background: #ebecf0;
-    border: 1px solid #67798e;
     width: 40px;
     height: 40px;
+    align-self: end;
   }
 
   .modal-image {
     margin-top: 0;
     margin-right: 24px;
     margin-left: 24px;
-    width: 816px;
-    height: 616px;
   }
 
   .title-button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
+    width: inherit;
     padding: 0;
-    width: 869px;
-    height: 82px;
-    left: 26px;
-    top: 718px;
-    margin-top: 0;
-    margin-left: 15px;
+    margin: 0;
   }
 
   .modal-title2 {
-    text-align: left;
-    width: 580px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 33px;
-    line-height: 44px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
     color: #172b4d;
-    margin: 0 12px;
+    width: 580px;
+    text-align: left;
+  }
+
+  .title-button a {
+    margin: 2em 1em 0  0;
   }
 
   .name-button {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0;
     position: absolute;
-    width: 869px;
+    width: auto;
     height: 82px;
-    left: 26px;
+    padding: 5%;
     top: 718px;
   }
 
   .technologies {
     margin-right: 360px;
     margin-bottom: 0;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .linkBtnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .see-demo3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px 0;
-    gap: 5px;
-    position: static;
-    width: 90px;
-    height: 30px;
-    left: 0;
-    bottom: 0;
+    padding: 8px 8px;
+    width: inherit;
     background: #36b37e;
     border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0 12px;
-    margin-left: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -925,35 +918,38 @@ h3 {
     align-items: center;
     padding: 8px;
     position: static;
-    width: 130px;
-    height: 30px;
+    width: inherit;
+    height: 35px;
     left: 728px;
     bottom: 34px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
-    line-height: 20px;
-    gap: 5px;
+    line-height: 15px;
+    gap: 6px;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
     margin-left: 0;
     text-decoration: none;
+    order: 2;
   }
 
   .technology-list {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: start;
     padding: 0;
     list-style: none;
-    gap: 5px;
-    margin-left: 14px;
+    width: auto;
+    margin-left: 10px;
+    align-self: flex-start;
+    padding-left: 10px;
   }
 
   .technology-langr {
-    width: 70px;
+    width: auto;
     height: 16px;
     left: 12px;
     top: 8px;
@@ -1035,21 +1031,16 @@ h3 {
   }
 
   .description2 {
-    width: 876px;
-    height: 151px;
-    left: 0;
-    top: 0;
+    width: auto;
+    height: inherit;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 35px;
-    margin: 12px 0 0 12px;
+    margin: 12px 0 40px 12px;
+    padding-left: 10px;
   }
 
   /* end of modal */

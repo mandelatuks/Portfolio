@@ -129,33 +129,20 @@ const enablePopUps = () => {
         });
         const popUpData = `
           <div class="modal">
-            <a class="close-icon1">
-            <img src="Images/Disabled.svg" alt="disabled button">
-            </a>
-            <img class="modal-image" src="Images/SnapshootPortfolio.svg" alt="project image">
+            <a class="close-icon1"><img src="Images/Disabled.svg" alt="disabled button" /></a>
+            <img class="modal-image" src="Images/SnapshootPortfolio.svg" alt="project image" />
               <div class="title-button">
-                    <h2 class="modal-title2">
-                    Keeping track of hundreds of
-                      components 
-                    </h2>
-                      <a class="see-demo3" href="${projectData.liveVersion}">See live
-                        <img src="Images/see-live.png" alt=" icon for live">
-                      </a>
-                      <a class="see-demo4" href="${projectData.sourceLink}">See Source
-                          <img src="Images/see-source.png" alt="icon for github">
-                      </a>
+                <h2 class="modal-title2">Keeping track of hundreds of components</h2>
+                <div class="linkBtnContainer">
+                  <a class="see-demo3" href="${projectData.liveVersion}">See live <img src="Images/see-live.png" alt=" icon for live" /></a>
+                  <a class="see-demo4" href="${projectData.sourceLink}">See Source <img src="Images/see-source.png" alt="icon for github" /></a>
+                </div>
               </div>
-              <div class="technologies">
-                <ul class="technology-list">
-                  ${technologies}
-                </ul>
-              </div>
-              <p class="description2">
-                ${projectData.description}
-              </p>
-  
-          </div>
-        `;
+                <ul class="technology-list">${technologies}</ul>
+              <p class="description2">${projectData.description}</p>
+        </div>
+      `;
+
         if (modalDesktop.classList.contains('hidden')) {
           modalDesktop.classList.remove('hidden');
           modalDesktop.innerHTML = popUpData;
@@ -172,10 +159,10 @@ const enablePopUps = () => {
           <div class="moblie-model">
             
             <div class="closeimage">
-            <a  class="close-icon1">
-            <img src="Images/Disabled.svg" alt="disabled button">
-            </a>
-        </div>
+              <a  class="close-icon1">
+                <img src="Images/Icon-Cancel.svg" alt="disabled button">
+              </a>
+            </div>
             <img class = "mainimage" src="Images/Snapshootmobile.svg" alt="project image">
               
                     <h2 class="modal-title">
