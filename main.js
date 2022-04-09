@@ -225,3 +225,20 @@ projects.forEach((item, index) => {
 });
 
 enablePopUps();
+
+// validate contact form
+const form = document.querySelector('.form-detail');
+
+function isValidated(input) {
+  if (input === input.toLowerCase()) return true;
+  return false;
+}
+
+form.addEventListener('submit', (event) => {
+  const email = document.getElementById('email');
+  if (!isValidated(email.value)) {
+    event.preventDefault();
+    const error = document.querySelector('.error-message');
+    error.style.display = 'block';
+  }
+});

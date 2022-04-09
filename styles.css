@@ -734,6 +734,15 @@ h3 {
   padding: 12px 12px;
 }
 
+.error-message {
+  color: rgb(255, 69, 0);
+  display: none;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 0;
+  animation: none;
+}
+
 .contact-btn {
   width: 130px;
   border: 0;
@@ -746,7 +755,8 @@ h3 {
   padding: 12px;
   border-radius: 4px;
   font-weight: 500;
-  margin-top: 13px;
+  margin-top: 0;
+  margin-bottom: 60px;
   cursor: pointer;
 }
 
@@ -1320,6 +1330,15 @@ h3 {
   .form-detail {
     display: flex;
     flex-direction: column;
+  }
+
+  .error-message {
+    color: rgb(255, 69, 0);
+    display: none;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: larger;
+    animation: none;
   }
 
   .media {
