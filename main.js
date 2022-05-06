@@ -31,15 +31,15 @@ navLink.forEach((link) => {
 
 const projects = [
   {
-    name: 'Multi-Post Stories Gain+Glory',
-    mainImage: 'Images/ImgPlaholder.png',
+    name: 'To Do List',
+    mainImage: 'Images/todolistsmall.png',
     mobileImage: '',
-    technologies: ['Ruby on rails', 'css', 'Javasript', 'html'],
+    technologies: ['css', 'Javasript', 'html'],
     mobileTechnologies: ['Ruby on rails', 'css', 'Javasript'],
-    popupTechnologies: ['CodeKit', 'Github', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
-    description: ' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    liveVersion: 'https://github.com/mandelatuks/Portfolio',
-    sourceLink: 'https://github.com/mandelatuks/Portfolio',
+    popupTechnologies: [ 'Github', 'Javasript', 'Terminal'],
+    description: 'This is the do list which can help an individual in their daily life so with this an individual can delete and add a task',
+    liveVersion: 'https://mandelatuks.github.io/To-do-list-webApps/',
+    sourceLink: 'https://github.com/mandelatuks/To-do-list-webApps',
   },
 
   {
@@ -130,9 +130,9 @@ const enablePopUps = () => {
         const popUpData = `
           <div class="modal">
             <a class="close-icon1"><img src="Images/Disabled.svg" alt="disabled button" /></a>
-            <img class="modal-image" src="Images/SnapshootPortfolio.svg" alt="project image" />
+            <img class="modal-image" src="Images/todolistsmall.png" alt="project image" />
               <div class="title-button">
-                <h2 class="modal-title2">Keeping track of hundreds of components</h2>
+                <h2 class="modal-title2">${projectData.name}</h2>
                 <div class="linkBtnContainer">
                   <a class="see-demo3" href="${projectData.liveVersion}">See live <img src="Images/see-live.png" alt=" icon for live" /></a>
                   <a class="see-demo4" href="${projectData.sourceLink}">See Source <img src="Images/see-source.png" alt="icon for github" /></a>
