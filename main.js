@@ -36,7 +36,7 @@ const projects = [
     mobileImage: '',
     technologies: ['css', 'JavaScript', 'html'],
     mobileTechnologies: ['Ruby on rails', 'css', 'Javasript'],
-    popupTechnologies: [ 'Github', 'JavaScript', 'Terminal'],
+    popupTechnologies: ['Github', 'JavaScript', 'Terminal'],
     description: 'This is the do list which can help an individual in their daily life so with this an individual can delete and add a task',
     liveVersion: 'https://mandelatuks.github.io/To-do-list-webApps/',
     sourceLink: 'https://github.com/mandelatuks/To-do-list-webApps',
