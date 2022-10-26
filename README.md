@@ -14,7 +14,7 @@
 
 ## Live Demo 
 
-[LIVE DEMO](https://mandelatuks.github.io/Portfolio/)
+[LIVE DEMO](https://mandelatuks.github.io/v1/)
 
 
 ## Getting Started
